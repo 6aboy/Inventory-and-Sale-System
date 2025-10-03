@@ -1,9 +1,9 @@
-<?php
+    <?php
 class Database{
     private $host = "127.0.0.2";
     private $username= "root";
     private $password = "strongestnumber2";
-    private $database = "student_management_system";
+    private $database = "inventory_and_sale_system";
     private $conn;
 
     public function __construct(){
