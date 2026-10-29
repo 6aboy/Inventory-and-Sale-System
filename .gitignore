@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+config/*.local.php
+
+# Database dumps / local DB files
+*.sql
+*.sqlite
+*.db
+*.bak
+*.dump
+
+# Private keys / certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+
+# Logs
+*.log
+
+# Local upload / generated data
+uploads/
+storage/
+tmp/
